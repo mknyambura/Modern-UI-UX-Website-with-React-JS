@@ -5,15 +5,15 @@ import logo from '../../assets/logo.svg'
 import './navbar.css'
 
 
-const Menu = () => {
+const Menu = () => (
   <>
-  <p><a href="#home">Home</a></p>
-  <p><a href="#wgpt3">What is GPT3?</a></p>
-  <p><a href="#possibility">OpenAI</a></p>
-  <p><a href="#features">Case Studies</a></p>
-  <p><a href="#blog">Library</a></p>
+    <p><a href="#home">Home</a></p>
+    <p><a href="#wgpt3">What is GPT3?</a></p>
+    <p><a href="#possibility">OpenAI</a></p>
+    <p><a href="#features">Case Studies</a></p>
+    <p><a href="#blog">Library</a></p>
   </>
-}
+)
 function Navbar() {
   const [ toggleMenu, setToggleMenu ] = useState(false);
   return (
@@ -38,6 +38,10 @@ function Navbar() {
           <div className="navbar-menu-container scale-up-center">
             <div className="navbar-menu-container-links">
               <Menu/>
+              <div className="navbar-menu-container-links-sign-in">
+                <p>Sign In</p>
+                <button type='button'> Sign Up</button>
+              </div>
             </div>
           </div>
         )}
