@@ -1,0 +1,56 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+}
+.navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.navbar-links-logo {
+    margin-right: 2rem;
+}
+.navbar-links-logo img {
+    width: 62.56px;
+    height: 16.02px;
+}
+.navbar-links-container {
+    display: flex;
+    flex-direction: row;
+}
+.navbar-sign-in {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navbar-links-container p,
+.navbar-sign-in p,
+.navbar-menu-container p {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24.59px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+.navbar-sign-in button,
+.navbar-menu-container button {
+    border-radius: 5px;
+    background: #ff4820;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
