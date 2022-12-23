@@ -23,16 +23,16 @@ a{
     /* global 92%+ browsers support */
     background:radial-gradient(circle at 3% 25%, #002853 0%, #040C18 100%);
 }
-.gradient__text {
+.gradient-text {
     background: linear-gradient(89.98deg, #ae67fa 1.85%, #f49867 102.68%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.section__padding {
+.section-padding {
     padding: 4rem 6rem;
 }
-.section__margin {
+.section-margin {
     margin: 4rem 6rem;
 }
 .scale-up-center {
@@ -40,7 +40,7 @@ a{
 	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
- @-webkit-keyframes scale-up-center {
+@-webkit-keyframes scale-up-center {
     0% {
       -webkit-transform: scale(0.5);
               transform: scale(0.5);
