@@ -1,6 +1,8 @@
 ## GPT-3 App
-Author: Mercy F. Nyambura Kariuki
-License: MIT
+<h3>Author: Mercy F. Nyambura Kariuki</h3>
+<h3>License: MIT</h3>
+
+<h3>Figma UI/UX design link: https://www.figma.com/file/lz9lLpFHMxHm2odnwM3R0z/gpt3?node-id=0%3A15&t=zK8tXzF30e8LUCfq-0</h3> 
 
 # Getting Started with Create React App
 
