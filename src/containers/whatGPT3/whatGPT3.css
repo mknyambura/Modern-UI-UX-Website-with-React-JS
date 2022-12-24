@@ -38,9 +38,62 @@
     font-weight: 800;
     font-size: 34px;
     line-height: 45px;
-    background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
+}
+.whatgpt3-heading p{
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #ff8a71;
+    cursor: pointer;
+}
+.whatgpt3-container {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 850px) {
+    .whatgpt3-container {
+        display: block;
+        flex-wrap: wrap;
+    }
+    .whatgpt3-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+    .whatgpt3-heading p {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .whatgpt3-container {
+        display: block;
+    }
+    .whatgpt3-feature .features-container-feature {
+        flex-direction: column;
+    }
+    .whatgpt3-feature .features-container-feature-text {
+        margin-top: 0.5rem;
+    }
+    .whatgpt3-heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .whatgpt3-container {
+        display: block;
+    }
+    .whatgpt3-container .features-container-feature {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
 }
