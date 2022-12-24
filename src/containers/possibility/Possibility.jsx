@@ -5,7 +5,7 @@ import possibilityImage from '../../assets/possibility.png'
 
 function Possibility() {
   return (
-    <div className='possibility section-padding' id='possiility'>
+    <div className='possibility section-padding' id='possibility'>
       <div className="possibility-image">
         <img src={possibilityImage} alt="" />
       </div>
