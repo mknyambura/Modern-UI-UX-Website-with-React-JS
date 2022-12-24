@@ -1,7 +1,7 @@
 .features-container-feature {
     width: 100%;
-    /* display: flex; */
-    justify-content: space-between;
+    display: flex;
+    justify-content: space-around;
     align-items: flex-start;
     flex-direction: row;
     margin: 1rem;
@@ -16,7 +16,7 @@
     font-style: normal;
     font-weight: 800;
     font-size: 24px;
-    line-height: 75px;   
+    /* line-height: 75px;    */
     letter-spacing: -0.04em;
     color: #fff;
 }
@@ -39,11 +39,6 @@
     font-size: 16px;
     line-height: 30px;
     color: #81afdd;
-}
-@media screen and (max-wdth: 1050px){
-    .features-container-feature{
-        display: block;
-    }
 }
 
 @media screen and (max-width: 550px){
