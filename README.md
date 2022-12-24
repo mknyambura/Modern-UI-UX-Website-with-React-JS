@@ -1,7 +1,9 @@
-# Getting Started with Create React App
-
+## GPT-3 App
 Author: Mercy F. Nyambura Kariuki
 License: MIT
+
+# Getting Started with Create React App
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
