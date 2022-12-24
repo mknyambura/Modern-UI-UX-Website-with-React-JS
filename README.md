@@ -1,5 +1,8 @@
 # Getting Started with Create React App
 
+Author: Mercy F. Nyambura Kariuki
+License: MIT
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
